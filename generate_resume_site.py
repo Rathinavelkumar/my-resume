@@ -2,19 +2,9 @@ import sys
 from pathlib import Path
 import markdown
 
-def md_to_html(md_path):
-    with open(md_path, 'r', encoding='utf-8') as f:
-        md_content = f.read()
-    # Convert Markdown to HTML
-    rendered_html = markdown.markdown(md_content, extensions=['extra', 'smarty'])
-    html_template = """<!DOCTYPE html>
-<html lang='en'>
-<head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Rathinavelkumar Murugan – Resume</title>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Fira+Mono&display=swap' rel='stylesheet'>
-  <style>
+def get_resume_css():
+    """Return the CSS for the resume page."""
+    return """
     body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background: #f4f6fb; }
     .container { max-width: 850px; margin: 40px auto; background: #fff; padding: 48px 54px 36px 54px; border-radius: 14px; box-shadow: 0 4px 24px rgba(44,62,80,0.10); }
     h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; }
@@ -25,9 +15,8 @@ def md_to_html(md_path):
     code, pre { background: #f1f3f4; padding: 0.2em 0.4em; border-radius: 4px; font-family: 'Fira Mono', monospace; }
     hr { border: 0; border-top: 1.5px solid #e3e6f0; margin: 2em 0; }
     ul, ol { margin-top: 0; margin-bottom: 0.8em; }
-    li { margin-bottom: 0.2em; }
+    li { margin-bottom: 0.2em; text-align: justify !important; text-justify: inter-word; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-break: break-word; }
     li > * { text-align: justify !important; }
-    li { text-align: justify !important; text-justify: inter-word; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-break: break-word; }
     .contact-row { display: flex; flex-wrap: wrap; gap: 18px; font-size: 1.08em; margin-bottom: 10px; color: #374151; }
     .badge { display: inline-block; background: #e3e6f0; color: #3949ab; border-radius: 7px; padding: 2px 10px; font-size: 0.97em; margin-right: 7px; margin-bottom: 4px; }
     .section { margin-bottom: 22px; }
@@ -36,6 +25,19 @@ def md_to_html(md_path):
     .highlight { background: #fffde7; border-left: 4px solid #ffd600; padding: 6px 16px; margin: 18px 0; border-radius: 4px; font-size: 1.08em; }
     p { text-align: justify; }
     @media (max-width: 700px) { .container { padding: 16px 4px; } }
+    """
+
+def get_html_template(content, css):
+    """Return the full HTML page with injected content and CSS."""
+    return f"""<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Rathinavelkumar Murugan – Resume</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Fira+Mono&display=swap' rel='stylesheet'>
+  <style>
+    {css}
   </style>
 </head>
 <body>
@@ -46,12 +48,19 @@ def md_to_html(md_path):
 </main>
 </body>
 </html>"""
-    html_filled = html_template.replace("{content}", rendered_html)
-    output_path = Path("docs/index.html")
+
+def md_to_html(md_path, output_path="docs/index.html"):
+    """Convert Markdown resume to styled HTML and save to output_path."""
+    with open(md_path, 'r', encoding='utf-8') as f:
+        md_content = f.read()
+    rendered_html = markdown.markdown(md_content, extensions=['extra', 'smarty'])
+    css = get_resume_css()
+    html = get_html_template(rendered_html, css)
+    output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(html_filled)
-    print("docs/index.html generated successfully.")
+        f.write(html)
+    print(f"{output_path} generated successfully.")
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

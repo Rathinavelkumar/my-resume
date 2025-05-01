@@ -31,15 +31,15 @@ Results-oriented tech lead with 8+ years of experience in Python backend enginee
 ## Professional Experience
 
 ### Lead Software Developer | Athenahealth Technology | Jul 2022 – Present  
-- Led the migration of Bitbucket Data Center to AWS, replacing Sparkle Formation with Terraform, reducing provisioning time by 60%.  
-- Architected and implemented DR strategies, automated backup/restore, and contributed to HA/Active-Active R&D.  
+- Led the migration of Bitbucket Data Center to AWS, replacing Sparkle Formation with Terraform.
+- Architected and implemented DR strategies, automated backup/restore, and contributed to HA/Active-Active.
 - Introduced a standardized Git branching model and unified CI/CD pipelines, cutting release times by 30%.  
 - Mentored 5 engineers, conducted code reviews, and drove Agile sprint planning and execution.  
 - Achieved 20% cloud cost reduction through optimization of AWS instance and storage types.
 
 ### Software Developer | CBTS Technology Solutions | Feb 2021 – Jul 2022  
-- Designed and built a TCO Dashboard using Python, MySQL, Tableau, and PCF to centralize cost analysis across 7+ enterprise systems.  
-- Created a real-time Compliance Dashboard that automated tracking and alerting, improving audit turnaround by 40%.  
+- Built TCO Dashboard with Python, MySQL, and Tableau for cost analysis across 7+ systems.
+- Created real-time Compliance Dashboard, improving audit turnaround by 40%.  
 - Enhanced system monitoring with ELK integration, improving incident detection and root cause analysis.
 
 ### Associate – Automation Engineer | Cognizant Technology Solutions | Dec 2016 – Feb 2021  
@@ -81,15 +81,13 @@ Improved system observability by integrating ELK Stack with legacy tools and app
 - 🏆 Recognized by clients for automation during cloud migration, accelerating delivery by 40%.  
 - 💰 Reduced AWS infrastructure cost via custom Terraform modules and resource tuning.  
 - 👨‍💻 Ranked Top 25% in HackerEarth Leaderboards (DSA: #62,576, Algo: #20,355, Basic Prog: #7,536).  
-- 👥 Led a 5-member engineering team, resolving blockers, ensuring code quality, and delivering high-priority features on schedule.  
+- 👥 Led a 5-member team, ensuring code quality and on-time delivery.  
 - 🔄 Proactively upskilled in new technologies to support delivery on evolving project scopes.
 
 ---
 
 ## Education
 
-**Bachelor of Engineering – Biomedical Engineering**  
-PSNA College of Engineering & Technology | 2016
-
-**Higher Secondary (H.S.C)** – H.D.I Jain Matric Hr. Sec School | 2012  
-**Secondary School (S.S.L.C)** – B.M.S Vidhyalaya Matric School | 2010
+- **Bachelor of Engineering (BME)**  - PSNA College of Engineering & Technology | 2016       
+- **Higher Secondary (H.S.C)** – H.D.I Jain Matric Hr. Sec School | 2012
+- **Secondary School (S.S.L.C)** – B.M.S Vidhyalaya Matric School | 2010
