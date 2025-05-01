@@ -13,16 +13,26 @@ def md_to_html(md_path):
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>Rathinavelkumar Murugan – Resume</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Fira+Mono&display=swap' rel='stylesheet'>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; line-height: 1.6; }
-    .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 40px 48px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.09); }
-    h1, h2, h3 { color: #2c3e50; }
-    a { color: #2980b9; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    code, pre { background: #eee; padding: 0.2em 0.4em; border-radius: 4px; }
-    hr { border: 0; border-top: 1px solid #ccc; margin: 2em 0; }
-    ul { margin-top: 0; }
-    @media (max-width: 600px) { .container { padding: 18px 6px; } }
+    body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background: #f4f6fb; }
+    .container { max-width: 850px; margin: 40px auto; background: #fff; padding: 48px 54px 36px 54px; border-radius: 14px; box-shadow: 0 4px 24px rgba(44,62,80,0.10); }
+    h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; }
+    h2 { color: #3949ab; border-bottom: 2px solid #e3e6f0; padding-bottom: 0.2em; margin-top: 32px; margin-bottom: 18px; }
+    h3 { color: #222; margin-top: 24px; }
+    a { color: #1976d2; text-decoration: none; transition: color 0.2s; }
+    a:hover { color: #0d47a1; text-decoration: underline; }
+    code, pre { background: #f1f3f4; padding: 0.2em 0.4em; border-radius: 4px; font-family: 'Fira Mono', monospace; }
+    hr { border: 0; border-top: 1.5px solid #e3e6f0; margin: 2em 0; }
+    ul, ol { margin-top: 0; margin-bottom: 0.8em; }
+    li { margin-bottom: 0.2em; }
+    .contact-row { display: flex; flex-wrap: wrap; gap: 18px; font-size: 1.08em; margin-bottom: 10px; color: #374151; }
+    .badge { display: inline-block; background: #e3e6f0; color: #3949ab; border-radius: 7px; padding: 2px 10px; font-size: 0.97em; margin-right: 7px; margin-bottom: 4px; }
+    .section { margin-bottom: 22px; }
+    .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+    .skills-list span { background: #ede7f6; color: #4527a0; border-radius: 5px; padding: 2px 10px; font-size: 0.97em; }
+    .highlight { background: #fffde7; border-left: 4px solid #ffd600; padding: 6px 16px; margin: 18px 0; border-radius: 4px; font-size: 1.08em; }
+    @media (max-width: 700px) { .container { padding: 16px 4px; } }
   </style>
 </head>
 <body>
