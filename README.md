@@ -1,26 +1,14 @@
-# Resume Site Generator
+# Resume to Web Page Generator
 
-This Python app parses a Markdown resume and generates a clean `index.html` suitable for GitHub Pages.
+This project turns a Markdown-based resume into a clean, HTML resume page — ready to be hosted on **GitHub Pages**.
 
-## Usage
+## 🔧 How It Works
 
-1. Place your resume in Markdown format (e.g., `resume.md`).
-2. Run:
+- You provide a `resume.md` file.
+- Run a simple Python script.
+- It generates `docs/index.html`, which GitHub Pages uses by default.
+
+## 🧪 Usage
 
 ```bash
-pip install -r requirements.txt
 python generate_resume_site.py resume.md
-```
-
-3. The script will generate `index.html` in the same directory.
-
-## Requirements
-- Python 3.7+
-- `markdown` package (install with `pip install markdown`)
-
-## Output
-- `index.html`: Ready to deploy to GitHub Pages.
-
----
-
-**Customize**: You can modify the HTML template in `generate_resume_site.py` for your own style.
