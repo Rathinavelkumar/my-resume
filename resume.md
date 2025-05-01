@@ -17,51 +17,54 @@ Results-oriented tech lead with 8+ years of experience in Python backend enginee
 
 | **Area**             | **Technologies**                                                                 |
 |----------------------|----------------------------------------------------------------------------------|
-| **Languages**        | Python, Java, JavaScript, Golang, VBScript                                       |
-| **Web & APIs**       | Flask, FastAPI, REST APIs, ReactJS, Bootstrap, HTML, CSS                         |
-| **Cloud & DevOps**   | AWS (EC2, RDS, S3, ELB, Route53, OpenSearch), Terraform, Docker, Kubernetes      |
-| **CI/CD & Tools**    | Jenkins, Bitbucket, Git, Artifactory, PCF, Perforce, Puppet, Ansible             |
-| **Monitoring/Logging** | Splunk, Grafana, ELK Stack                                                      |
-| **Databases**        | MySQL, PostgreSQL, Snowflake                                                     |
-| **Testing & QA**     | Selenium, Protractor, TOSCA, UFT                                                 |
-| **Methodologies**    | Agile, Scrum, SDLC, System Design, OOP                                           |
+| **Languages**        |    Python, Java, JavaScript, Golang, VBScript                                       |
+| **Web & APIs**       |    Flask, FastAPI, REST APIs, ReactJS, Bootstrap, HTML, CSS                         |
+| **Cloud & DevOps**   |    AWS (EC2, RDS, S3, ELB, Route53, OpenSearch), Terraform, Docker, Kubernetes      |
+| **CI/CD & Tools**    |    Jenkins, Bitbucket, Git, Artifactory, PCF, Perforce, Puppet, Ansible             |
+| **Monitoring Tools** |    Splunk, Grafana, ELK Stack                                                       |
+| **Databases**        |    MySQL, PostgreSQL, Snowflake                                                     |
+| **Testing & QA**     |    Selenium, Protractor, TOSCA, UFT                                                 |
+| **Methodologies**    |    Agile, Scrum, SDLC, System Design, OOP                                           |
 
 ---
 
 ## Professional Experience
 
-### Lead Software Developer  
-**Athenahealth Technology**, Chennai | Jul 2022 – Present  
+### Lead Software Developer | Athenahealth Technology | Jul 2022 – Present  
 - Led the migration of Bitbucket Data Center to AWS, replacing Sparkle Formation with Terraform, reducing provisioning time by 60%.  
 - Architected and implemented DR strategies, automated backup/restore, and contributed to HA/Active-Active R&D.  
 - Introduced a standardized Git branching model and unified CI/CD pipelines, cutting release times by 30%.  
 - Mentored 5 engineers, conducted code reviews, and drove Agile sprint planning and execution.  
 - Achieved 20% cloud cost reduction through optimization of AWS instance and storage types.
 
-### Software Developer  
-**CBTS Technology Solutions**, Chennai | Feb 2021 – Jul 2022  
+### Software Developer | CBTS Technology Solutions | Feb 2021 – Jul 2022  
 - Designed and built a TCO Dashboard using Python, MySQL, Tableau, and PCF to centralize cost analysis across 7+ enterprise systems.  
 - Created a real-time Compliance Dashboard that automated tracking and alerting, improving audit turnaround by 40%.  
 - Enhanced system monitoring with ELK integration, improving incident detection and root cause analysis.
 
-### Associate – Automation Engineer  
-**Cognizant Technology Solutions**, Coimbatore | Dec 2016 – Feb 2021  
+### Associate – Automation Engineer | Cognizant Technology Solutions | Dec 2016 – Feb 2021  
 - Automated web/SAP workflows using Python, Selenium, and Protractor, reducing manual QA effort by 50%.  
 - Developed internal Flask dashboards with REST APIs and MySQL to streamline team operations.  
 - Designed a CI framework using TCShell and TOSCA, boosting test coverage and execution speed.
 
 ---
 
-## Selected Projects
+## Projects
 
-### 🚀 Bitbucket Data Center Migration (AWS)  
-Architected end-to-end migration of Bitbucket DC to AWS with Terraform, Docker, and automated CI/CD pipelines. Achieved 99.9% uptime and improved deployment velocity.
+### 🚀 Bitbucket Data Center Modernization & Migration to AWS  
+Led the full-scale migration of Bitbucket Data Center from on-premise to AWS, implementing Terraform-based infrastructure as code (IaC), Docker containerization, and automated CI/CD pipelines. Achieved 99.9% system uptime, improved deployment velocity by 45%, and introduced high availability and disaster recovery automation. Standardized monitoring via Grafana and ELK stack.
 
-### 📊 TCO & Compliance Dashboards  
-Led development of financial and compliance dashboards aggregating multi-source data, enhancing budget tracking and SLA compliance across 300+ servers.
+### 📊 Enterprise Cost & Compliance Dashboards  
+Designed and implemented TCO (Total Cost of Ownership) and Compliance Dashboards to centralize cost analytics and ensure governance. Aggregated data from 7+ enterprise systems using Python, MySQL, Tableau, and REST APIs, resulting in a 40% improvement in audit readiness and real-time SLA tracking across 300+ server environments.
 
-### 📱 Android App Development  
-Published two apps including *Smart Health*, featuring real-time health tracking and reminders. (Links available on request)
+### 🔒 Unified Access Management Automation  
+Developed internal Python-based tooling integrated with Bitbucket APIs and AWS OpenSearch for access audits, policy enforcement, and proactive alerting. Automated compliance reports and reduced manual review efforts by 60%. Enhanced DevSecOps posture through self-service IAM provisioning workflows.
+
+### 📦 Infrastructure as Code & DevOps Automation  
+Refactored legacy infrastructure provisioning using Terraform, standardizing AWS resource management across environments. Built reusable modules for EC2, RDS, S3, and Route53, reducing provisioning errors and improving deployment time by 50%. Integrated Terraform into Jenkins pipelines for fully automated deployments with audit logging.
+
+### 🌐 Real-Time Monitoring Enhancements  
+Improved system observability by integrating ELK Stack with legacy tools and application logs. Implemented custom alerts in Grafana and Splunk for real-time failure detection, significantly reducing mean time to resolution (MTTR). Enabled proactive monitoring for 200+ microservices and pipelines.
 
 ---
 
