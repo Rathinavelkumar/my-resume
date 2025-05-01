@@ -26,12 +26,15 @@ def md_to_html(md_path):
     hr { border: 0; border-top: 1.5px solid #e3e6f0; margin: 2em 0; }
     ul, ol { margin-top: 0; margin-bottom: 0.8em; }
     li { margin-bottom: 0.2em; }
+    li > * { text-align: justify !important; }
+    li { text-align: justify !important; text-justify: inter-word; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-break: break-word; }
     .contact-row { display: flex; flex-wrap: wrap; gap: 18px; font-size: 1.08em; margin-bottom: 10px; color: #374151; }
     .badge { display: inline-block; background: #e3e6f0; color: #3949ab; border-radius: 7px; padding: 2px 10px; font-size: 0.97em; margin-right: 7px; margin-bottom: 4px; }
     .section { margin-bottom: 22px; }
     .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
     .skills-list span { background: #ede7f6; color: #4527a0; border-radius: 5px; padding: 2px 10px; font-size: 0.97em; }
     .highlight { background: #fffde7; border-left: 4px solid #ffd600; padding: 6px 16px; margin: 18px 0; border-radius: 4px; font-size: 1.08em; }
+    p { text-align: justify; }
     @media (max-width: 700px) { .container { padding: 16px 4px; } }
   </style>
 </head>

@@ -17,12 +17,15 @@
     hr { border: 0; border-top: 1.5px solid #e3e6f0; margin: 2em 0; }
     ul, ol { margin-top: 0; margin-bottom: 0.8em; }
     li { margin-bottom: 0.2em; }
+    li > * { text-align: justify !important; }
+    li { text-align: justify !important; text-justify: inter-word; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-break: break-word; }
     .contact-row { display: flex; flex-wrap: wrap; gap: 18px; font-size: 1.08em; margin-bottom: 10px; color: #374151; }
     .badge { display: inline-block; background: #e3e6f0; color: #3949ab; border-radius: 7px; padding: 2px 10px; font-size: 0.97em; margin-right: 7px; margin-bottom: 4px; }
     .section { margin-bottom: 22px; }
     .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
     .skills-list span { background: #ede7f6; color: #4527a0; border-radius: 5px; padding: 2px 10px; font-size: 0.97em; }
     .highlight { background: #fffde7; border-left: 4px solid #ffd600; padding: 6px 16px; margin: 18px 0; border-radius: 4px; font-size: 1.08em; }
+    p { text-align: justify; }
     @media (max-width: 700px) { .container { padding: 16px 4px; } }
   </style>
 </head>
@@ -64,7 +67,7 @@
 <td>Jenkins, Bitbucket, Git, Artifactory, PCF, Perforce, Puppet, Ansible</td>
 </tr>
 <tr>
-<td><strong>Monitoring/Logging</strong></td>
+<td><strong>Monitoring Tools</strong></td>
 <td>Splunk, Grafana, ELK Stack</td>
 </tr>
 <tr>
@@ -83,31 +86,38 @@
 </table>
 <hr />
 <h2>Professional Experience</h2>
-<h3>Lead Software Developer</h3>
-<p><strong>Athenahealth Technology</strong>, Chennai | Jul 2022 – Present<br />
-- Led the migration of Bitbucket Data Center to AWS, replacing Sparkle Formation with Terraform, reducing provisioning time by 60%.<br />
-- Architected and implemented DR strategies, automated backup/restore, and contributed to HA/Active-Active R&amp;D.<br />
-- Introduced a standardized Git branching model and unified CI/CD pipelines, cutting release times by 30%.<br />
-- Mentored 5 engineers, conducted code reviews, and drove Agile sprint planning and execution.<br />
-- Achieved 20% cloud cost reduction through optimization of AWS instance and storage types.</p>
-<h3>Software Developer</h3>
-<p><strong>CBTS Technology Solutions</strong>, Chennai | Feb 2021 – Jul 2022<br />
-- Designed and built a TCO Dashboard using Python, MySQL, Tableau, and PCF to centralize cost analysis across 7+ enterprise systems.<br />
-- Created a real-time Compliance Dashboard that automated tracking and alerting, improving audit turnaround by 40%.<br />
-- Enhanced system monitoring with ELK integration, improving incident detection and root cause analysis.</p>
-<h3>Associate – Automation Engineer</h3>
-<p><strong>Cognizant Technology Solutions</strong>, Coimbatore | Dec 2016 – Feb 2021<br />
-- Automated web/SAP workflows using Python, Selenium, and Protractor, reducing manual QA effort by 50%.<br />
-- Developed internal Flask dashboards with REST APIs and MySQL to streamline team operations.<br />
-- Designed a CI framework using TCShell and TOSCA, boosting test coverage and execution speed.</p>
+<h3>Lead Software Developer | Athenahealth Technology | Jul 2022 – Present</h3>
+<ul>
+<li>Led the migration of Bitbucket Data Center to AWS, replacing Sparkle Formation with Terraform, reducing provisioning time by 60%.  </li>
+<li>Architected and implemented DR strategies, automated backup/restore, and contributed to HA/Active-Active R&amp;D.  </li>
+<li>Introduced a standardized Git branching model and unified CI/CD pipelines, cutting release times by 30%.  </li>
+<li>Mentored 5 engineers, conducted code reviews, and drove Agile sprint planning and execution.  </li>
+<li>Achieved 20% cloud cost reduction through optimization of AWS instance and storage types.</li>
+</ul>
+<h3>Software Developer | CBTS Technology Solutions | Feb 2021 – Jul 2022</h3>
+<ul>
+<li>Designed and built a TCO Dashboard using Python, MySQL, Tableau, and PCF to centralize cost analysis across 7+ enterprise systems.  </li>
+<li>Created a real-time Compliance Dashboard that automated tracking and alerting, improving audit turnaround by 40%.  </li>
+<li>Enhanced system monitoring with ELK integration, improving incident detection and root cause analysis.</li>
+</ul>
+<h3>Associate – Automation Engineer | Cognizant Technology Solutions | Dec 2016 – Feb 2021</h3>
+<ul>
+<li>Automated web/SAP workflows using Python, Selenium, and Protractor, reducing manual QA effort by 50%.  </li>
+<li>Developed internal Flask dashboards with REST APIs and MySQL to streamline team operations.  </li>
+<li>Designed a CI framework using TCShell and TOSCA, boosting test coverage and execution speed.</li>
+</ul>
 <hr />
-<h2>Selected Projects</h2>
-<h3>🚀 Bitbucket Data Center Migration (AWS)</h3>
-<p>Architected end-to-end migration of Bitbucket DC to AWS with Terraform, Docker, and automated CI/CD pipelines. Achieved 99.9% uptime and improved deployment velocity.</p>
-<h3>📊 TCO &amp; Compliance Dashboards</h3>
-<p>Led development of financial and compliance dashboards aggregating multi-source data, enhancing budget tracking and SLA compliance across 300+ servers.</p>
-<h3>📱 Android App Development</h3>
-<p>Published two apps including <em>Smart Health</em>, featuring real-time health tracking and reminders. (Links available on request)</p>
+<h2>Projects</h2>
+<h3>🚀 Bitbucket Data Center Modernization &amp; Migration to AWS</h3>
+<p>Led the full-scale migration of Bitbucket Data Center from on-premise to AWS, implementing Terraform-based infrastructure as code (IaC), Docker containerization, and automated CI/CD pipelines. Achieved 99.9% system uptime, improved deployment velocity by 45%, and introduced high availability and disaster recovery automation. Standardized monitoring via Grafana and ELK stack.</p>
+<h3>📊 Enterprise Cost &amp; Compliance Dashboards</h3>
+<p>Designed and implemented TCO (Total Cost of Ownership) and Compliance Dashboards to centralize cost analytics and ensure governance. Aggregated data from 7+ enterprise systems using Python, MySQL, Tableau, and REST APIs, resulting in a 40% improvement in audit readiness and real-time SLA tracking across 300+ server environments.</p>
+<h3>🔒 Unified Access Management Automation</h3>
+<p>Developed internal Python-based tooling integrated with Bitbucket APIs and AWS OpenSearch for access audits, policy enforcement, and proactive alerting. Automated compliance reports and reduced manual review efforts by 60%. Enhanced DevSecOps posture through self-service IAM provisioning workflows.</p>
+<h3>📦 Infrastructure as Code &amp; DevOps Automation</h3>
+<p>Refactored legacy infrastructure provisioning using Terraform, standardizing AWS resource management across environments. Built reusable modules for EC2, RDS, S3, and Route53, reducing provisioning errors and improving deployment time by 50%. Integrated Terraform into Jenkins pipelines for fully automated deployments with audit logging.</p>
+<h3>🌐 Real-Time Monitoring Enhancements</h3>
+<p>Improved system observability by integrating ELK Stack with legacy tools and application logs. Implemented custom alerts in Grafana and Splunk for real-time failure detection, significantly reducing mean time to resolution (MTTR). Enabled proactive monitoring for 200+ microservices and pipelines.</p>
 <hr />
 <h2>Certifications</h2>
 <ul>
