@@ -103,9 +103,9 @@ def main():
         md_content = f.read()
     sections = parse_markdown_sections(md_content)
     html = render_html(sections)
-    with open('index.html', 'w', encoding='utf-8') as f:
+    with open('docs/index.html', 'w', encoding='utf-8') as f:
         f.write(html)
-    print('index.html generated successfully.')
+    print('docs/index.html generated successfully.')
 
 if __name__ == '__main__':
     main()
