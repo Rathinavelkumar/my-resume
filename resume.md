@@ -1,11 +1,12 @@
-
 # Rathinavelkumar Murugan
 
-**Lead DevOps Engineer | Python Developer**
+<div class="designation">Lead DevOps Engineer | Python Developer</div>
 
-📍 Madurai, Tamil Nadu, India  
-📧 rethnavelkumar@gmail.com | 📞 +91 814-872-8660  
-🔗 [LinkedIn](https://linkedin.com/in/rathinavelkumar) | 💻 [GitHub](https://github.com/rathinavelkumar)
+<div class="contact-info">
+📍 Madurai, Tamil Nadu, India<br>
+📧 rethnavelkumar@gmail.com | 📞 +91 8148728660<br>
+🔗 <a href="https://linkedin.com/in/rathinavelkumar-m-829619b7">LinkedIn</a> | 💻 <a href="https://github.com/rathinavelkumar">GitHub</a>
+</div>
 
 ---
 
@@ -17,16 +18,17 @@ Results-oriented tech lead with 8.5 years of experience in Python backend engine
 
 ## Core Skills
 
-| **Area**             | **Technologies**                                                                   |
-|:---------------------|:-----------------------------------------------------------------------------------|
-| **Languages**        | Python, Java, JavaScript, Golang, VBScript                                         |
-| **Web & APIs**       | Flask, FastAPI, REST APIs, ReactJS, Bootstrap, HTML, CSS                           |
-| **Cloud & DevOps**   | AWS (EC2, RDS, S3, ELB, Route53, OpenSearch), Terraform, Docker, Kubernetes        |
-| **CI/CD & Tools**    | Jenkins, Bitbucket, Git, Artifactory, PCF, Perforce, Puppet, Ansible               |
-| **Monitoring Tools** | Splunk, Grafana, ELK Stack                                                         |
-| **Databases**        | MySQL, PostgreSQL, Snowflake                                                       |
-| **Testing & QA**     | Selenium, Protractor, TOSCA, UFT                                                   |
-| **Methodologies**    | Agile, Scrum, SDLC, System Design, OOP                                             |
+| **Area** | **Technologies** |
+|---------|----------------|
+| **Languages** | Python, Java, JavaScript, Golang, VBScript |
+| **Web & APIs** | Flask, FastAPI, ReactJS, Bootstrap, HTML, CSS |
+| **Cloud & DevOps** | AWS, Terraform, Docker, Kubernetes, PCF, Puppet, Ansible |
+| **CI/CD & Tools** | Bitbucket, Jenkins, Git, Artifactory, SonarQube, Perforce |
+| **Networking** | DNS, Route53, DHCP, VPC, Subnets |
+| **Monitoring Tools** | Splunk, Grafana, ELK Stack, CloudWatch |
+| **Databases** | MySQL, PostgreSQL, Snowflake |
+| **Testing & QA** | Selenium, Protractor, TOSCA, UFT |
+| **Methodologies** | Agile, Scrum, SDLC, System Design, OOPS |
 
 ---
 
