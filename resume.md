@@ -12,7 +12,7 @@
 
 ## Summary
 
-Results-driven technology leader with 8.5+ years of experience in building scalable backend systems, cloud-native architectures, and DevOps automation. Deeply proficient in designing robust, high-performance infrastructure on AWS using Terraform, Docker, and Kubernetes along with extensive Python backend engineering. Proven track record in architecting fault-tolerant systems, optimizing resources, and mentoring high-impact teams—all geared towards operational excellence and rapid product delivery. Passionate about solving complex problems with innovative technical solutions that drive measurable business outcomes.
+Results-driven technology leader with **8.5+ years of experience** in building **scalable backend systems**, **cloud-native architectures**, and **DevOps automation**. Deeply proficient in designing robust, high-performance infrastructure on **AWS** using **Terraform**, **Puppet**, and **Docker** along with extensive **Python** backend engineering. Proven track record in **architecting fault-tolerant systems**, **optimizing resources**, and **mentoring high-impact teams**—all geared towards operational excellence and rapid product delivery. Passionate about solving complex problems with innovative technical solutions that drive measurable business outcomes.
 
 ---
 
@@ -20,15 +20,15 @@ Results-driven technology leader with 8.5+ years of experience in building scala
 
 | **Area** | **Technologies** |
 |---------|----------------|
-| **Languages** | Python, Java, JavaScript, Golang, VBScript |
-| **Web & APIs** | Flask, FastAPI, ReactJS, Bootstrap, HTML, CSS |
-| **Cloud & DevOps** | AWS, Terraform, Docker, Kubernetes, PCF, Puppet, Ansible |
-| **CI/CD & Tools** | Bitbucket, Jenkins, Git, Artifactory, SonarQube, Perforce |
-| **Networking** | DNS, Route53, DHCP, VPC, Subnets |
-| **Monitoring Tools** | Splunk, Grafana, ELK Stack, CloudWatch |
+| **Languages** | **Python**, Java, JavaScript, Golang, VBScript |
+| **Web & APIs** | **Flask**, FastAPI, ReactJS, Bootstrap, HTML, CSS |
+| **Cloud & DevOps** | **AWS**, **Terraform**, **Docker**, Kubernetes, PCF, **Puppet**, Ansible |
+| **CI/CD & Tools** | **Bitbucket**, Jenkins, **Git**, Artifactory, **SonarQube**, Perforce |
+| **Networking** | **DNS**, Route53, DHCP, VPC, Subnets |
+| **Monitoring Tools** | Splunk, Grafana, ELK Stack, **CloudWatch** |
 | **Databases** | MySQL, PostgreSQL, Snowflake |
 | **Testing & QA** | Selenium, Protractor, TOSCA, UFT |
-| **Methodologies** | Agile, Scrum, SDLC, System Design, OOPS |
+| **Methodologies** | Agile, Scrum, SDLC, **System Design**, OOPS |
 
 ---
 
