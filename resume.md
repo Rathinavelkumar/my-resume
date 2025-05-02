@@ -39,9 +39,9 @@ Results-driven technology leader with 8.5+ years of experience in building scala
 
 - **Cloud Migration & Infra Modernization:**  Led migration of Bitbucket Data Center to AWS using Terraform IaC, reducing errors and boosting efficiency by 50%.
 
-- **Resiliency & Disaster Recovery:**  Designed automated backup and restore processes using an active-active architecture to ensure data integrity and minimal downtime.
+- **Resiliency & Disaster Recovery:**  Designed automated backup and restore processes with high-availability architecture to ensure data integrity and minimal downtime during system failures.
 
-- **CI/CD Optimization:** Standardized Git branching and unified CI/CD pipelines, swift accelerating release cycles and elevating overall code quality.
+- **CI/CD Optimization:** Standardized Git branching and unified CI/CD pipelines, swift accelerating release cycles and elevating overall code quality with sonarqube integration.
 
 - **Team Leadership:**  Mentored junior engineers and led rigorous code reviews, fostering a strong Agile culture that steadily drove team excellence.
 
