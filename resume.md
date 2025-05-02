@@ -47,6 +47,8 @@ Results-driven technology leader with **8.5+ years of experience** in building *
 
 - **Cost Optimization:**  Streamlined AWS resource utilization via rightsizing and proactive monitoring, achieving a 20% reduction in compute and storage costs.
 
+**Key Technologies:** AWS, Terraform, Puppet, Bitbucket, Java, OpenSearch, SonarQube
+
 ---
 
 ### Software Developer | CBTS Technology Solutions  
@@ -58,6 +60,8 @@ Results-driven technology leader with **8.5+ years of experience** in building *
 
 - **Monitoring Enhancements:**  Integrated the ELK stack for real-time log analytics and automated alerts, enabling proactive incident detection and quicker resolutions.
 
+**Key Technologies:** Python, MySQL, Tableau, ELK Stack, ServiceNow
+
 ---
 
 ### Associate – Automation Engineer | Cognizant Technology Solutions  
@@ -68,6 +72,8 @@ Results-driven technology leader with **8.5+ years of experience** in building *
 - **Internal Tools:**  Developed Flask dashboards with RESTful APIs and MySQL to streamline operations and enhance cross-team collaboration.
 
 - **CI Framework Development:**  Designed a CI framework using TCShell and TOSCA that significantly increased test coverage and accelerated execution speed.
+
+**Key Technologies:** Python, Flask, Selenium, Protractor, MySQL, TOSCA
 
 ---
 
