@@ -12,7 +12,7 @@
 
 ## Summary
 
-Results-oriented tech lead with 8.5 years of experience in Python backend engineering, DevOps automation, and cloud-native architecture. Expert in designing scalable systems on AWS using Terraform, Docker, and Kubernetes. Adept at leading engineering teams, automating CI/CD pipelines, and driving product delivery in fast-paced Agile environments. Passionate about solving complex problems, reducing operational overhead, and mentoring high-performing developers.
+Results-driven technology leader with 8.5+ years of experience in building scalable backend systems, cloud-native architectures, and DevOps automation. Deeply proficient in designing robust, high-performance infrastructure on AWS using Terraform, Docker, and Kubernetes along with extensive Python backend engineering. Proven track record in architecting fault-tolerant systems, optimizing resources, and mentoring high-impact teams—all geared towards operational excellence and rapid product delivery. Passionate about solving complex problems with innovative technical solutions that drive measurable business outcomes.
 
 ---
 
@@ -34,50 +34,65 @@ Results-oriented tech lead with 8.5 years of experience in Python backend engine
 
 ## Professional Experience
 
-### Lead Software Developer | Athenahealth Technology | Jul 2022 – Present  
-- Led Bitbucket Data Center migration to AWS, replacing Sparkle Formation with Terraform IaC solutions
-- Architected DR strategies with automated backup/restore processes and built HA/Active-Active architecture
-- Standardized Git branching model with unified CI/CD pipelines, reducing release cycle times by 30%
-- Mentored junior engineers, conducted thorough code reviews, and facilitated Agile sprint processes
-- Optimized AWS resources (compute/storage) achieving 20% cost reduction through strategic rightsizing
+### Lead Software Developer | Athenahealth Technology  
+*Jul 2022 – Present*  
 
-### Software Developer | CBTS Technology Solutions | Feb 2021 – Jul 2022  
-- Built TCO Dashboard using Python, MySQL & Tableau for cost analysis across 7+ systems
-- Created Compliance Dashboard, improving audit turnaround by 40% and enhancing regulatory visibility  
-- Enhanced monitoring with ELK integration, improving incident detection and root cause analysis
+- **Cloud Migration & Infra Modernization:**  Led migration of Bitbucket Data Center to AWS using Terraform IaC, reducing errors and boosting efficiency by 50%.
 
-### Associate – Automation Engineer | Cognizant Technology Solutions | Dec 2016 – Feb 2021  
-- Automated web/SAP workflows using Python, Selenium, and Protractor, reducing manual QA effort by 50%.  
-- Developed internal Flask dashboards with REST APIs and MySQL to streamline team operations.  
-- Designed a CI framework using TCShell and TOSCA, boosting test coverage and execution speed.
+- **Resiliency & Disaster Recovery:**  Designed automated backup and restore processes using an active-active architecture to ensure data integrity and minimal downtime.
+
+- **CI/CD Optimization:** Standardized Git branching and unified CI/CD pipelines, swift accelerating release cycles and elevating overall code quality.
+
+- **Team Leadership:**  Mentored junior engineers and led rigorous code reviews, fostering a strong Agile culture that steadily drove team excellence.
+
+- **Cost Optimization:**  Streamlined AWS resource utilization via rightsizing and proactive monitoring, achieving a 20% reduction in compute and storage costs.
+
+---
+
+### Software Developer | CBTS Technology Solutions  
+*Feb 2021 – Jul 2022*  
+
+- **Dashboard Development:**  Engineered a TCO Dashboard using Python, MySQL, and Tableau to consolidate cost data from 7+ systems for strategic decisions.
+
+- **Compliance & Audit Automation:**  Developed a Compliance Dashboard that automated data aggregation, slashing audit turnaround by 40% and boosting regulatory transparency.
+
+- **Monitoring Enhancements:**  Integrated the ELK stack for real-time log analytics and automated alerts, enabling proactive incident detection and quicker resolutions.
+
+---
+
+### Associate – Automation Engineer | Cognizant Technology Solutions  
+*Dec 2016 – Feb 2021*  
+
+- **Process Automation:**  Automated various web and SAP workflows using Python, Selenium, and Protractor, reducing manual QA effort by 50% and expediting test cycles.
+
+- **Internal Tools:**  Developed Flask dashboards with RESTful APIs and MySQL to streamline operations and enhance cross-team collaboration.
+
+- **CI Framework Development:**  Designed a CI framework using TCShell and TOSCA that significantly increased test coverage and accelerated execution speed.
 
 ---
 
 ## Key Projects
 
 ### 🏗️ Infrastructure as Code (IaC) Modernization  
-Migrated Bitbucket Data Center IaC from Sparkle Formation to Terraform, optimizing AWS provisioning and scalability. Standardized infrastructure to reduce errors and boost deployment efficiency by 50%. Achieved ~$1000/year savings through strategic upgrades. Improved infrastructure consistency and maintainability by enforcing modular Terraform configurations.  
+Migrated Bitbucket Data Center’s legacy IaC from Sparkle Formation to Terraform. Established modular configurations that improved deployment efficiency by 50% and enabled ~$1000/year cost savings.
 
 ### 🛡️ Bitbucket Disaster Recovery Modernization  
-Redesigned AWS Backup Manager infrastructure as code for a fault-tolerant disaster recovery strategy. Implemented snapshot and restore-based DR using AWS Backup Manager, ensuring data integrity and rapid recovery. Developed IaC from scratch using Terraform, optimizing automation and scalability. Enabled DR testing for microservices, strengthening resilience and compliance.  
+Redesigned AWS Backup Manager infrastructure to support snapshot/restore-based disaster recovery. Developed IaC from scratch using Terraform to enable DR testing for microservices, safeguarding against data loss and ensuring compliance.
 
 ### 🛠️ Perforce Infrastructure Migration to Oracle Linux 8  
-Executed seamless migration of Perforce infrastructure to Oracle Linux 8 with zero downtime. Hosted Perforce on a virtual machine for the first time, accelerating deployment while ensuring edge server migration. Authored a detailed SOP for future scalability and operational efficiency. Improved system reliability and maintainability by optimizing configurations and resource allocation.  
+Executed a zero-downtime migration of the Perforce infrastructure, transitioning to Oracle Linux 8 and hosting on a virtualized environment. Authored comprehensive SOPs to ensure future scalability and operational agility.
 
 ### 🌍 HITRUST Disaster Recovery Testing for Bitbucket  
-Conducted disaster recovery testing for Bitbucket in a sandbox environment, successfully migrating between AWS regions to validate resilience. Defined recovery time and recovery point objectives for compliance alignment. Updated DR documentation to ensure operational accuracy and future audit readiness. Strengthened disaster recovery readiness by refining failover procedures and validating recovery workflows.  
+Led disaster recovery testing in a sandbox setup across AWS regions. Defined recovery time and point objectives, strengthening compliance and audit readiness.
 
 ### 🚀 Bitbucket Upgrade and Puppet Module Rewrite  
-Upgraded Bitbucket LTS from version 7 to 8, Java from version 8 to 17, and the operating system from CentOS 7 to Oracle Linux 8, transitioning Elasticsearch to OpenSearch. Rewrote Puppet modules for compatibility and led plugin upgrade efforts. Ensured seamless migration with rigorous testing. Enhanced system stability and performance by modernizing configurations and dependency management.  
+Managed end-to-end upgrades including Bitbucket LTS, Java, operating system upgrades, and transition from Elasticsearch to OpenSearch—along with rewriting Puppet modules to ensure compatibility and boost system stability.  
 
 ### 🔍 Bitbucket Metrics Extraction Plugin Development  
-Developed a Bitbucket plugin to track development metrics, capturing project, repository, and code volume data. Migrated analytics from OpenSearch to Snowflake for scalability. Led design, code reviews, and debugging for performance optimization. Provided real-time insights for engineering teams, improving resource planning and development efficiency.  
+Developed a plugin that captured development metrics and seamlessly migrated data from bitbucket to Snowflake, enhancing real-time insights and resource planning for engineering teams.  
 
-### 📊 TCO Dashboard Development & Data Integration  
-Built a Total Cost of Ownership (TCO) Dashboard using Python, MySQL, Tableau, and PCF. Integrated data sources like CHEF, VROPS, and ServiceNow for structured processing. Improved financial forecasting and analytics accessibility for stakeholders. Strengthened decision-making with enhanced visibility into cost metrics and infrastructure spend.  
-
-### 🔍 Compliance Dashboard for Server Audit & Tracking  
-Designed a Compliance Dashboard to streamline server compliance tracking, integrating CHEF, VROPS, and ServiceNow. Automated audit readiness, improving reporting efficiency. Strengthened governance and transparency with intelligent visualization. Reduced manual intervention and audit preparation time through real-time compliance insights.  
+### 📊 TCO & Compliance Dashboards  
+Built dashboards integrating data from CHEF, VROPS, and ServiceNow. Enhanced financial forecasting, audit readiness, and operational transparency through intelligent, real-time visualizations.  
 
 ---
 
