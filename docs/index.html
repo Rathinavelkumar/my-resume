@@ -9,7 +9,8 @@
     
     body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background: #f4f6fb; }
     .container { max-width: 850px; margin: 40px auto; background: #fff; padding: 48px 54px 36px 54px; border-radius: 14px; box-shadow: 0 4px 24px rgba(44,62,80,0.10); }
-    h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; }
+    h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; text-align: center; }
+    .designation { text-align: center; margin-bottom: 1.2em; font-size: 1.2em; }
     h2 { color: #3949ab; border-bottom: 2px solid #e3e6f0; padding-bottom: 0.2em; margin-top: 32px; margin-bottom: 18px; }
     h3 { color: #222; margin-top: 24px; }
     a { color: #1976d2; text-decoration: none; transition: color 0.2s; }
@@ -19,14 +20,23 @@
     ul, ol { margin-top: 0; margin-bottom: 0.8em; }
     li { margin-bottom: 0.2em; text-align: justify !important; text-justify: inter-word; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-break: break-word; }
     li > * { text-align: justify !important; }
-    .contact-row { display: flex; flex-wrap: wrap; gap: 18px; font-size: 1.08em; margin-bottom: 10px; color: #374151; }
+    .contact-info { text-align: center; margin-bottom: 1.5em; line-height: 1.6; }
     .badge { display: inline-block; background: #e3e6f0; color: #3949ab; border-radius: 7px; padding: 2px 10px; font-size: 0.97em; margin-right: 7px; margin-bottom: 4px; }
     .section { margin-bottom: 22px; }
     .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
     .skills-list span { background: #ede7f6; color: #4527a0; border-radius: 5px; padding: 2px 10px; font-size: 0.97em; }
     .highlight { background: #fffde7; border-left: 4px solid #ffd600; padding: 6px 16px; margin: 18px 0; border-radius: 4px; font-size: 1.08em; }
     p { text-align: justify; }
-    @media (max-width: 700px) { .container { padding: 16px 4px; } }
+    table { width: 100%; border-collapse: collapse; margin: 1.5em 0; }
+    table th, table td { padding: 10px 12px; border: 1px solid #e3e6f0; }
+    table th { background-color: #f8f9fc; font-weight: bold; }
+    table tr:nth-child(even) { background-color: #f8f9fc; }
+    table tr:hover { background-color: #f1f3f9; }
+    @media (max-width: 700px) { 
+      .container { padding: 16px 12px; } 
+      table { font-size: 0.9em; }
+      table th, table td { padding: 8px 6px; }
+    }
     
   </style>
 </head>
@@ -34,13 +44,17 @@
 <main>
   <div class="container">
     <h1>Rathinavelkumar Murugan</h1>
-<p><strong>Lead Backend Engineer | Python Developer | DevOps Specialist</strong><br />
-📍 Madurai, Tamil Nadu, India<br />
-📧 rethnavelkumar@gmail.com | 📞 +91 814-872-8660<br />
-🔗 <a href="https://linkedin.com/in/rathinavelkumar">LinkedIn</a> | 💻 <a href="https://github.com/rathinavelkumar">GitHub</a></p>
+<div class="designation">Lead DevOps Engineer | Python Developer</div>
+
+<div class="contact-info">
+📍 Madurai, Tamil Nadu, India<br>
+📧 rethnavelkumar@gmail.com | 📞 +91 8148728660<br>
+🔗 <a href="https://linkedin.com/in/rathinavelkumar-m-829619b7">LinkedIn</a> | 💻 <a href="https://github.com/rathinavelkumar">GitHub</a>
+</div>
+
 <hr />
 <h2>Summary</h2>
-<p>Results-oriented tech lead with 8+ years of experience in Python backend engineering, DevOps automation, and cloud-native architecture. Expert in designing scalable systems on AWS using Terraform, Docker, and Kubernetes. Adept at leading engineering teams, automating CI/CD pipelines, and driving product delivery in fast-paced Agile environments. Passionate about solving complex problems, reducing operational overhead, and mentoring high-performing developers.</p>
+<p>Results-oriented tech lead with 8.5 years of experience in Python backend engineering, DevOps automation, and cloud-native architecture. Expert in designing scalable systems on AWS using Terraform, Docker, and Kubernetes. Adept at leading engineering teams, automating CI/CD pipelines, and driving product delivery in fast-paced Agile environments. Passionate about solving complex problems, reducing operational overhead, and mentoring high-performing developers.</p>
 <hr />
 <h2>Core Skills</h2>
 <table>
@@ -57,19 +71,23 @@
 </tr>
 <tr>
 <td><strong>Web &amp; APIs</strong></td>
-<td>Flask, FastAPI, REST APIs, ReactJS, Bootstrap, HTML, CSS</td>
+<td>Flask, FastAPI, ReactJS, Bootstrap, HTML, CSS</td>
 </tr>
 <tr>
 <td><strong>Cloud &amp; DevOps</strong></td>
-<td>AWS (EC2, RDS, S3, ELB, Route53, OpenSearch), Terraform, Docker, Kubernetes</td>
+<td>AWS, Terraform, Docker, Kubernetes, PCF, Puppet, Ansible</td>
 </tr>
 <tr>
 <td><strong>CI/CD &amp; Tools</strong></td>
-<td>Jenkins, Bitbucket, Git, Artifactory, PCF, Perforce, Puppet, Ansible</td>
+<td>Bitbucket, Jenkins, Git, Artifactory, SonarQube, Perforce</td>
+</tr>
+<tr>
+<td><strong>Networking</strong></td>
+<td>DNS, Route53, DHCP, VPC, Subnets</td>
 </tr>
 <tr>
 <td><strong>Monitoring Tools</strong></td>
-<td>Splunk, Grafana, ELK Stack</td>
+<td>Splunk, Grafana, ELK Stack, CloudWatch</td>
 </tr>
 <tr>
 <td><strong>Databases</strong></td>
@@ -81,7 +99,7 @@
 </tr>
 <tr>
 <td><strong>Methodologies</strong></td>
-<td>Agile, Scrum, SDLC, System Design, OOP</td>
+<td>Agile, Scrum, SDLC, System Design, OOPS</td>
 </tr>
 </tbody>
 </table>
@@ -89,17 +107,17 @@
 <h2>Professional Experience</h2>
 <h3>Lead Software Developer | Athenahealth Technology | Jul 2022 – Present</h3>
 <ul>
-<li>Led the migration of Bitbucket Data Center to AWS, replacing Sparkle Formation with Terraform.</li>
-<li>Architected and implemented DR strategies, automated backup/restore, and contributed to HA/Active-Active.</li>
-<li>Introduced a standardized Git branching model and unified CI/CD pipelines, cutting release times by 30%.  </li>
-<li>Mentored 5 engineers, conducted code reviews, and drove Agile sprint planning and execution.  </li>
-<li>Achieved 20% cloud cost reduction through optimization of AWS instance and storage types.</li>
+<li>Led Bitbucket Data Center migration to AWS, replacing Sparkle Formation with Terraform IaC solutions</li>
+<li>Architected DR strategies with automated backup/restore processes and built HA/Active-Active architecture</li>
+<li>Standardized Git branching model with unified CI/CD pipelines, reducing release cycle times by 30%</li>
+<li>Mentored junior engineers, conducted thorough code reviews, and facilitated Agile sprint processes</li>
+<li>Optimized AWS resources (compute/storage) achieving 20% cost reduction through strategic rightsizing</li>
 </ul>
 <h3>Software Developer | CBTS Technology Solutions | Feb 2021 – Jul 2022</h3>
 <ul>
-<li>Built TCO Dashboard with Python, MySQL, and Tableau for cost analysis across 7+ systems.</li>
-<li>Created real-time Compliance Dashboard, improving audit turnaround by 40%.  </li>
-<li>Enhanced system monitoring with ELK integration, improving incident detection and root cause analysis.</li>
+<li>Built TCO Dashboard using Python, MySQL &amp; Tableau for cost analysis across 7+ systems</li>
+<li>Created Compliance Dashboard, improving audit turnaround by 40% and enhancing regulatory visibility  </li>
+<li>Enhanced monitoring with ELK integration, improving incident detection and root cause analysis</li>
 </ul>
 <h3>Associate – Automation Engineer | Cognizant Technology Solutions | Dec 2016 – Feb 2021</h3>
 <ul>
@@ -108,17 +126,23 @@
 <li>Designed a CI framework using TCShell and TOSCA, boosting test coverage and execution speed.</li>
 </ul>
 <hr />
-<h2>Projects</h2>
-<h3>🚀 Bitbucket Data Center Modernization &amp; Migration to AWS</h3>
-<p>Led the full-scale migration of Bitbucket Data Center from on-premise to AWS, implementing Terraform-based infrastructure as code (IaC), Docker containerization, and automated CI/CD pipelines. Achieved 99.9% system uptime, improved deployment velocity by 45%, and introduced high availability and disaster recovery automation. Standardized monitoring via Grafana and ELK stack.</p>
-<h3>📊 Enterprise Cost &amp; Compliance Dashboards</h3>
-<p>Designed and implemented TCO (Total Cost of Ownership) and Compliance Dashboards to centralize cost analytics and ensure governance. Aggregated data from 7+ enterprise systems using Python, MySQL, Tableau, and REST APIs, resulting in a 40% improvement in audit readiness and real-time SLA tracking across 300+ server environments.</p>
-<h3>🔒 Unified Access Management Automation</h3>
-<p>Developed internal Python-based tooling integrated with Bitbucket APIs and AWS OpenSearch for access audits, policy enforcement, and proactive alerting. Automated compliance reports and reduced manual review efforts by 60%. Enhanced DevSecOps posture through self-service IAM provisioning workflows.</p>
-<h3>📦 Infrastructure as Code &amp; DevOps Automation</h3>
-<p>Refactored legacy infrastructure provisioning using Terraform, standardizing AWS resource management across environments. Built reusable modules for EC2, RDS, S3, and Route53, reducing provisioning errors and improving deployment time by 50%. Integrated Terraform into Jenkins pipelines for fully automated deployments with audit logging.</p>
-<h3>🌐 Real-Time Monitoring Enhancements</h3>
-<p>Improved system observability by integrating ELK Stack with legacy tools and application logs. Implemented custom alerts in Grafana and Splunk for real-time failure detection, significantly reducing mean time to resolution (MTTR). Enabled proactive monitoring for 200+ microservices and pipelines.</p>
+<h2>Key Projects</h2>
+<h3>🏗️ Infrastructure as Code (IaC) Modernization</h3>
+<p>Migrated Bitbucket Data Center IaC from Sparkle Formation to Terraform, optimizing AWS provisioning and scalability. Standardized infrastructure to reduce errors and boost deployment efficiency by 50%. Achieved ~$1000/year savings through strategic upgrades. Improved infrastructure consistency and maintainability by enforcing modular Terraform configurations.  </p>
+<h3>🛡️ Bitbucket Disaster Recovery Modernization</h3>
+<p>Redesigned AWS Backup Manager infrastructure as code for a fault-tolerant disaster recovery strategy. Implemented snapshot and restore-based DR using AWS Backup Manager, ensuring data integrity and rapid recovery. Developed IaC from scratch using Terraform, optimizing automation and scalability. Enabled DR testing for microservices, strengthening resilience and compliance.  </p>
+<h3>🛠️ Perforce Infrastructure Migration to Oracle Linux 8</h3>
+<p>Executed seamless migration of Perforce infrastructure to Oracle Linux 8 with zero downtime. Hosted Perforce on a virtual machine for the first time, accelerating deployment while ensuring edge server migration. Authored a detailed SOP for future scalability and operational efficiency. Improved system reliability and maintainability by optimizing configurations and resource allocation.  </p>
+<h3>🌍 HITRUST Disaster Recovery Testing for Bitbucket</h3>
+<p>Conducted disaster recovery testing for Bitbucket in a sandbox environment, successfully migrating between AWS regions to validate resilience. Defined recovery time and recovery point objectives for compliance alignment. Updated DR documentation to ensure operational accuracy and future audit readiness. Strengthened disaster recovery readiness by refining failover procedures and validating recovery workflows.  </p>
+<h3>🚀 Bitbucket Upgrade and Puppet Module Rewrite</h3>
+<p>Upgraded Bitbucket LTS from version 7 to 8, Java from version 8 to 17, and the operating system from CentOS 7 to Oracle Linux 8, transitioning Elasticsearch to OpenSearch. Rewrote Puppet modules for compatibility and led plugin upgrade efforts. Ensured seamless migration with rigorous testing. Enhanced system stability and performance by modernizing configurations and dependency management.  </p>
+<h3>🔍 Bitbucket Metrics Extraction Plugin Development</h3>
+<p>Developed a Bitbucket plugin to track development metrics, capturing project, repository, and code volume data. Migrated analytics from OpenSearch to Snowflake for scalability. Led design, code reviews, and debugging for performance optimization. Provided real-time insights for engineering teams, improving resource planning and development efficiency.  </p>
+<h3>📊 TCO Dashboard Development &amp; Data Integration</h3>
+<p>Built a Total Cost of Ownership (TCO) Dashboard using Python, MySQL, Tableau, and PCF. Integrated data sources like CHEF, VROPS, and ServiceNow for structured processing. Improved financial forecasting and analytics accessibility for stakeholders. Strengthened decision-making with enhanced visibility into cost metrics and infrastructure spend.  </p>
+<h3>🔍 Compliance Dashboard for Server Audit &amp; Tracking</h3>
+<p>Designed a Compliance Dashboard to streamline server compliance tracking, integrating CHEF, VROPS, and ServiceNow. Automated audit readiness, improving reporting efficiency. Strengthened governance and transparency with intelligent visualization. Reduced manual intervention and audit preparation time through real-time compliance insights.  </p>
 <hr />
 <h2>Certifications</h2>
 <ul>
