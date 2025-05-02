@@ -6,8 +6,8 @@ def get_resume_css():
     """Return the CSS for the resume page."""
     return """
     body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background: #f4f6fb; }
-    .container { max-width: 850px; margin: 40px auto; background: #fff; padding: 48px 54px 36px 54px; border-radius: 14px; box-shadow: 0 4px 24px rgba(44,62,80,0.10); }
-    h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; text-align: center; }
+    .container { max-width: 850px; margin: 12px auto; background: #fff; padding: 16px 54px 36px 54px; border-radius: 14px; box-shadow: 0 4px 24px rgba(44,62,80,0.10); }
+    h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; text-align: center; margin-top: 0.5em; }
     .designation { text-align: center; margin-bottom: 1.2em; font-size: 1.2em; }
     h2 { color: #3949ab; border-bottom: 2px solid #e3e6f0; padding-bottom: 0.2em; margin-top: 32px; margin-bottom: 18px; }
     h3 { color: #222; margin-top: 24px; }
