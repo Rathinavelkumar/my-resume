@@ -5,7 +5,7 @@
 <div class="contact-info">
 📍 Madurai, Tamil Nadu, India<br>
 📧 rethnavelkumar@gmail.com | 📞 +91 8148728660<br>
-🔗 <a href="https://linkedin.com/in/rathinavelkumar-m-829619b7">LinkedIn</a> | 💻 <a href="https://github.com/rathinavelkumar">GitHub</a>
+&#x1F517; <a href="https://linkedin.com/in/rathinavelkumar-m-829619b7" target="_blank" rel="noopener noreferrer">LinkedIn</a> | &#x1F4BB; <a href="https://github.com/rathinavelkumar" target="_blank" rel="noopener noreferrer">GitHub</a> | &#x1F4F1; <a href="https://www.rathnaschools.com/" target="_blank" rel="noopener noreferrer">Website</a>
 </div>
 
 ---
