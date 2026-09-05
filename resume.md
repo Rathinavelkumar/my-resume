@@ -1,4 +1,4 @@
-# Rathinavelkumar Murugan
+# M Rathinavelkumar
 
 AI and Cloud Engineer | AWS | Terraform | Python | DevOps | Infrastructure as Code
 
