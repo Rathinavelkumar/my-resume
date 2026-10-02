@@ -25,8 +25,7 @@ AI and Cloud Engineer with 10 years of experience delivering cloud infrastructur
 ## WORK EXPERIENCE
 
 ### AI and Cloud Product Development Engineer
-London Stock Exchange Group | Hyderabad, Telangana, India
-Aug 2025 - Present
+**London Stock Exchange Group | Hyderabad, Telangana, India | Aug 2025 - Present**
 
 - Contributed to Terragen, an AI-assisted Terraform product using Azure AI Foundry, Claude, and LangGraph to create AWS and Azure IaC modules aligned with LSEG controls.
 - Contributed to CPF-genie, an LLM-based VS Code extension using prompts and tool orchestration to help teams deploy compliant IaC modules.
@@ -34,8 +33,7 @@ Aug 2025 - Present
 - Enabled compliant onboarding for 15+ application teams and reduced IaC module development effort by about 90%.
 
 ### Lead Software Developer
-Athenahealth Technology | Chennai, Tamil Nadu, India
-Jul 2022 - Aug 2025
+**Athenahealth Technology | Chennai, Tamil Nadu, India | Jul 2022 - Aug 2025**
 
 - Led Bitbucket Data Center migration to AWS with Terraform, reducing deployment errors and improving efficiency.
 - Automated highly available AWS backup and restore workflows to support disaster recovery.
@@ -44,8 +42,7 @@ Jul 2022 - Aug 2025
 - Optimized AWS resource utilization through rightsizing and proactive monitoring, reducing compute and storage costs by 20%.
 
 ### Software Developer
-CBTS Technology Solutions | Chennai, Tamil Nadu, India
-Feb 2021 - Jul 2022
+**CBTS Technology Solutions | Chennai, Tamil Nadu, India | Feb 2021 - Jul 2022**
 
 - Built a total cost of ownership (TCO) dashboard with Python, MySQL, and Tableau, consolidating costs from 7+ systems for decision-making.
 - Automated compliance data aggregation, cutting audit turnaround time by 40% and improving regulatory transparency.
@@ -53,8 +50,7 @@ Feb 2021 - Jul 2022
 - Built dashboards using Chef, vROPS, and ServiceNow data to support forecasting and audit readiness.
 
 ### Associate - Automation Engineer
-Cognizant Technology Solutions | Coimbatore, Tamil Nadu, India
-Dec 2016 - Feb 2021
+**Cognizant Technology Solutions | Coimbatore, Tamil Nadu, India | Dec 2016 - Feb 2021**
 
 - Automated web and SAP workflows with Python, Selenium, and Protractor, reducing manual QA effort by 50% and shortening test cycles.
 - Developed Flask dashboards and MySQL-backed REST APIs to streamline operations and cross-team collaboration.
