@@ -7,7 +7,7 @@ LinkedIn: https://linkedin.com/in/rathinavelkumar-m-829619b7 | GitHub: https://g
 
 ## PROFESSIONAL SUMMARY
 
-AI and Cloud Engineer with 10 years in cloud infrastructure, DevOps, and automation. Experienced with AWS, Azure, Terraform, and Python. Contributes to Generative AI and agentic AI products using Azure AI Foundry, LangGraph, and the Model Context Protocol (MCP) to support compliant Infrastructure as Code in financial services. Developed 30+ reusable AWS IaC modules, enabling onboarding for 15+ teams and cutting module development effort by about 90%. Previously led a Bitbucket Data Center migration to AWS, standardized CI/CD, and reduced compute and storage costs by 20%. AWS Certified AI Practitioner.
+AI and Cloud Engineer with 10 years of experience delivering cloud infrastructure, DevOps automation, and AI-enabled products across AWS and Azure using Terraform and Python. Contributes to Generative AI and agentic AI product development with Azure AI Foundry, LangGraph, and the Model Context Protocol (MCP), supporting compliant Infrastructure as Code in a regulated financial services environment. Developed 30+ reusable AWS IaC modules, enabling compliant onboarding for 15+ application teams and reducing module development effort by approximately 90%. Previously led a Bitbucket Data Center migration to AWS, standardized CI/CD, and reduced AWS compute and storage costs by 20%. AWS Certified AI Practitioner.
 
 ## SKILLS
 
