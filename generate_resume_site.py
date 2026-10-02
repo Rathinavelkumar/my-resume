@@ -3,37 +3,29 @@ from pathlib import Path
 import markdown
 
 def get_resume_css():
-    """Return the CSS for the resume page."""
+    """Return simple, print-friendly CSS that preserves ATS-readable structure."""
     return """
-    body { font-family: 'Roboto', Arial, sans-serif; margin: 0; background: #f4f6fb; }
-    .container { max-width: 850px; margin: 12px auto; background: #fff; padding: 16px 54px 36px 54px; border-radius: 14px; box-shadow: 0 4px 24px rgba(44,62,80,0.10); }
-    h1 { font-size: 2.4em; color: #1a237e; letter-spacing: 1px; margin-bottom: 0.2em; text-align: center; margin-top: 0.5em; }
-    .designation { text-align: center; margin-bottom: 1.2em; font-size: 1.2em; }
-    h2 { color: #3949ab; border-bottom: 2px solid #e3e6f0; padding-bottom: 0.2em; margin-top: 32px; margin-bottom: 18px; }
-    h3 { color: #222; margin-top: 24px; }
-    a { color: #1976d2; text-decoration: none; transition: color 0.2s; }
-    a:hover { color: #0d47a1; text-decoration: underline; }
-    code, pre { background: #f1f3f4; padding: 0.2em 0.4em; border-radius: 4px; font-family: 'Fira Mono', monospace; }
-    hr { border: 0; border-top: 1.5px solid #e3e6f0; margin: 2em 0; }
-    ul, ol { margin-top: 0; margin-bottom: 0.8em; }
-    li { margin-bottom: 0.2em; text-align: justify !important; text-justify: inter-word; -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; word-break: break-word; }
-    li > * { text-align: justify !important; }
-    .contact-info { text-align: center; margin-bottom: 1.5em; line-height: 1.6; }
-    .badge { display: inline-block; background: #e3e6f0; color: #3949ab; border-radius: 7px; padding: 2px 10px; font-size: 0.97em; margin-right: 7px; margin-bottom: 4px; }
-    .section { margin-bottom: 22px; }
-    .skills-list { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
-    .skills-list span { background: #ede7f6; color: #4527a0; border-radius: 5px; padding: 2px 10px; font-size: 0.97em; }
-    .highlight { background: #fffde7; border-left: 4px solid #ffd600; padding: 6px 16px; margin: 18px 0; border-radius: 4px; font-size: 1.08em; }
-    p { text-align: justify; }
-    table { width: 100%; border-collapse: collapse; margin: 1.5em 0; }
-    table th, table td { padding: 10px 12px; border: 1px solid #e3e6f0; }
-    table th { background-color: #f8f9fc; font-weight: bold; }
-    table tr:nth-child(even) { background-color: #f8f9fc; }
-    table tr:hover { background-color: #f1f3f9; }
-    @media (max-width: 700px) { 
-      .container { padding: 16px 12px; } 
-      table { font-size: 0.9em; }
-      table th, table td { padding: 8px 6px; }
+    :root { color-scheme: light; }
+    body { margin: 0; background: #fff; color: #111; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.45; }
+    main { max-width: 850px; margin: 0 auto; padding: 36px 48px 48px; }
+    h1 { margin: 0 0 4px; font-size: 30px; line-height: 1.2; }
+    h2 { margin: 24px 0 8px; padding-bottom: 3px; border-bottom: 1px solid #111; font-size: 17px; line-height: 1.25; }
+    h3 { margin: 16px 0 2px; font-size: 16px; line-height: 1.3; }
+    p { margin: 6px 0 10px; }
+    ul { margin: 6px 0 10px; padding-left: 22px; }
+    li { margin: 3px 0; }
+    a { color: inherit; text-decoration: underline; }
+    strong { font-weight: 700; }
+    @media print {
+      body { font-size: 10.5pt; }
+      main { max-width: none; padding: 0; }
+      a { text-decoration: none; }
+      h2 { break-after: avoid; }
+      h3 { break-after: avoid; }
+      li { break-inside: avoid; }
+    }
+    @media (max-width: 700px) {
+      main { padding: 24px 20px 32px; }
     }
     """
 
@@ -44,25 +36,23 @@ def get_html_template(content, css):
 <head>
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Rathinavelkumar Murugan – Resume</title>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:700,400|Fira+Mono&display=swap' rel='stylesheet'>
+  <meta name='description' content='Rathinavelkumar Murugan - AI and Cloud Product Development Engineer resume'>
+  <title>Rathinavelkumar Murugan - Resume</title>
   <style>
     {css}
   </style>
 </head>
 <body>
 <main>
-  <div class="container">
-    {content}
-  </div>
+  {content}
 </main>
 </body>
 </html>"""
 
 def md_to_html(md_path, output_path="docs/index.html"):
     """Convert Markdown resume to styled HTML and save to output_path."""
-    with open(md_path, 'r', encoding='utf-8') as f:
-        md_content = f.read()
+    with open(md_path, 'r', encoding='utf-8') as resume_file:
+        md_content = resume_file.read()
     rendered_html = markdown.markdown(md_content, extensions=['extra', 'smarty'])
     css = get_resume_css()
     html = get_html_template(rendered_html, css)
